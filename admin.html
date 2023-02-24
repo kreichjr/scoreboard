@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Admin Panel for KReich Scoreboard</title>
+	<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+	<script type="text/javascript" src="script-admin.js" defer></script>
+</head>
+<body>
+	<section>
+		<label for="title">Title</label>
+		<input type="text" name="title" id="title">
+	</section>
+	<section>
+		<label for="p1name">Player 1</label>
+		<input type="text" name="p1name" id="p1name">
+
+		<label for="p1score">P1 Score</label>
+		<input type="text" name="p1score" id="p1score">		
+	</section>
+
+	<section>
+		<label for="p2name">Player 2</label>
+		<input type="text" name="p2name" id="p2name">
+
+		<label for="p2score">P2 Score</label>
+		<input type="text" name="p2score" id="p2score">
+	</section>
+
+
+
+	<button id="updateBtn">Update</button>
+</body>
+</html>

@@ -1,0 +1,33 @@
+@font-face { font-family: Tarrget; src: url('../fonts/tarrgetlaserital.ttf'); } 
+@font-face { font-family: Billo; src: url('../fonts/billo.TTF'); } 
+
+*, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	color: #AAAAAA;
+}
+
+body {
+	width: 1920px;
+	height: 60px;
+	background: #000;
+	border: solid 2px #AAAAAA;
+}
+
+.main-container {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-family: Tarrget;
+	font-size: 40px;
+}
+
+.player-2-container {
+	padding-right: 16px;
+}
+
+
