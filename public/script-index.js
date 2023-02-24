@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-var socket = io(`${process.env.SERVER}:${process.env.PORT}`)
+var socket = io(`ws://${window.location.hostname}`)
 
 const p1Element = document.querySelector('.player-1-container')
 const p2Element = document.querySelector('.player-2-container')

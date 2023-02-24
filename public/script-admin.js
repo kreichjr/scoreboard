@@ -1,8 +1,6 @@
-require('dotenv').config()
-
 const updateBtn = document.querySelector('#updateBtn')
 
-var socket = io(`${process.env.SERVER}:${process.env.PORT}`)
+var socket = io(`ws://${window.location.hostname}`)
 
 const getTitleData = () => document.querySelector('#title').value
 const getP1Data = () => `${document.querySelector('#p1name').value} - ${document.querySelector('#p1score').value}`
